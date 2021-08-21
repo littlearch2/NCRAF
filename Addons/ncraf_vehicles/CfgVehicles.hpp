@@ -67,4 +67,20 @@ class CfgVehicles {
 			};
 		};
 	};
+	class LIB_leFH18
+	{
+		class textureSources
+		{
+			class ncraf_ncr
+			{
+				displayname = "NCR";
+				author = "Pi";
+				Textures[]=
+				{
+					"ncraf\addons\ncraf_vehicles\data\lefh18.paa",
+				};
+				factions[]={};
+			};
+		};
+	};
 };
