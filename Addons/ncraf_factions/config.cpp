@@ -1,0 +1,128 @@
+class CfgPatches
+{
+class ncraf_factions
+{
+units[] = {
+// NCR
+"ncraf_ncr_recruit",
+"ncraf_ncr_conscript",
+"ncraf_ncr_trooper",
+"ncraf_ncr_trooper_melee",
+"ncraf_ncr_mp",
+"ncraf_ncr_mp_melee",
+"ncraf_ncr_trooper_autorifle",
+"ncraf_ncr_trooper_grenadier",
+"ncraf_ncr_trooper_mg",
+"ncraf_ncr_trooper_mg_asst",
+"ncraf_ncr_trooper_launcher",
+"ncraf_ncr_trooper_launcher_asst",
+"ncraf_ncr_at_rifle",
+"ncraf_ncr_marksman",
+"ncraf_ncr_medic",
+"ncraf_ncr_trooper_tl",
+"ncraf_ncr_trooper_sl",
+"ncraf_ncr_trooper_junior_officer",
+"ncraf_ncr_trooper_senior_officer",
+"ncraf_ncr_trooper_staff_officer",
+"ncraf_ncr_trooper_pilot",
+"ncraf_ncr_trooper_crewman",
+"ncraf_ncr_sailor",
+"ncraf_ncr_sailor_melee",
+"ncraf_ncr_marine",
+"ncraf_ncr_marine_cqc",
+"ncraf_ncr_marine_autorifleman",
+"ncraf_ncr_marine_medic",
+"ncraf_ncr_marine_tl",
+"ncraf_ncr_marine_sl",
+"ncraf_ncr_marine_officer",
+"ncraf_ncr_heavy_trooper",
+"ncraf_ncr_heavy_trooper_cqc",
+"ncraf_ncr_heavy_trooper_melee",
+"ncraf_ncr_heavy_trooper_mg",
+"ncraf_ncr_heavy_trooper_tl",
+"ncraf_ncr_heavy_trooper_sl",
+"ncraf_ncr_heavy_trooper_officer",
+"ncraf_ncr_civil_ranger_01",
+"ncraf_ncr_civil_ranger_02",
+"ncraf_ncr_civil_ranger_03",
+"ncraf_ncr_civil_ranger_04",
+"ncraf_ncr_civil_ranger_05",
+"ncraf_ncr_civil_ranger_06",
+"ncraf_ncr_patrol_ranger_pistol",
+"ncraf_ncr_patrol_ranger_repeater",
+"ncraf_ncr_patrol_ranger_rifle",
+"ncraf_ncr_patrol_ranger_automatic",
+"ncraf_ncr_vet_ranger_pistol",
+"ncraf_ncr_vet_ranger_repeater",
+"ncraf_ncr_vet_ranger_at",
+"ncraf_ncr_recon_sniper",
+"ncraf_ncr_recon_spotter",
+"ncraf_ncr_recon_scout",
+"ncraf_ncr_recon_leader",
+"ncraf_ncr_president",
+"LIB_leFH18",
+"LIB_M2_60",
+"B_G_HMG_02_F",
+"B_G_HMG_02_high_F",
+"XVB_02_infantry_NCR_F",
+"B_T_VTOL_01_vehicle_NCR_F",
+"B_T_VTOL_01_armed_NCR_F",
+"B_T_VTOL_01_infantry_NCR_F",
+"LIB_US_NAC_Willys_MB",
+"LIB_US_NAC_M4A3_75",
+"LIB_M3A3_Stuart",
+"vurtual_m923",
+// BOS
+"ncraf_bos_initiate",
+"ncraf_bos_junior_knight",
+"ncraf_bos_knight_melee",
+"ncraf_bos_knight",
+"ncraf_bos_knight_eng",
+"ncraf_bos_knight_mg",
+"ncraf_bos_junior_knight_MG",
+"ncraf_bos_knight_AT",
+"ncraf_bos_junior_knight_AT",
+"ncraf_bos_knight_marksman",
+"ncraf_bos_knight_medic",
+"ncraf_bos_knight_sl",
+"ncraf_bos_knight_officer",
+"ncraf_bos_scribe",
+"ncraf_bos_pilot",
+"ncraf_bos_elder",
+"ncraf_bos_paladin",
+"ncraf_bos_paladin_melee",
+"ncraf_bos_paladin_MG",
+"ncraf_bos_paladin_AT",
+"ncraf_bos_paladin_sniper",
+"ncraf_bos_paladin_sl",
+"ncraf_bos_paladin_officer",
+// ENC
+"ncraf_enc_recruit",
+"ncraf_enc_soldier",
+"ncraf_enc_soldier_pa",
+"ncraf_enc_officer",
+"ncraf_enc_colonel"
+};
+
+requiredVersion = 0.1; 
+requiredAddons[] = {
+"A3_Characters_F",
+"AFTERMATH",
+"ncraf_vehicles",
+"IA_Armour_Patch_Aftermath",
+"Aftermath_ace_medical",
+"Aftermath_reloaded_lasers",
+"Aftermath_reloaded_plasma",
+"Aftermath_reloaded_Particles",
+"Aftermath_reloaded_Gauss",
+"WW2_Core_c_WW2_Core_c"
+}; 
+}; 
+};
+
+
+#include "CfgFactionNCR.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgPatches.hpp"
+#include "CfgGroups.hpp"
+#include "CfgWeapons.hpp"
